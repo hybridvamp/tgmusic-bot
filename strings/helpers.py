@@ -1,156 +1,157 @@
-HELP_1 = """🙄 **<u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</u>**
+HELP_1 = """🙄 <u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</u>
 
-ᴊᴜsᴛ ᴀᴅᴅ **ᴄ** ɪɴ ᴛʜᴇ sᴛᴀʀᴛɪɴɢ ᴏғ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜsᴇ ᴛʜᴇᴍ ғᴏʀ ᴄʜᴀɴɴᴇʟ.
+Just add "c" in the starting of the commands to use them for channel.
 
-/pause : ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
+/pause: Pause the current playing stream.
 
-/resume : ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
+/resume: Resume the paused stream.
 
-/skip : sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
+/skip: Skip the current playing stream and start streaming the next track in the queue.
 
-/end ᴏʀ /stop : ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
+/end or /stop: Clears the queue and ends the current playing stream.
 
-/player : ɢᴇᴛ ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴩʟᴀʏᴇʀ ᴩᴀɴᴇʟ.
+/player: Get an interactive player panel.
 
-/queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ."""
+/queue: Shows the queued tracks list."""
 
-HELP_2 = """😜 **<u>ᴀᴜᴛʜ ᴜsᴇʀs :</u>**
-ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ. [ᴀᴅᴍɪɴs ᴏɴʟʏ]
+HELP_2 = """😜 **<u>AUTH USERS:</u>**
+Auth users can use admin rights in the bot without admin rights in the chat. [Admins only]
 
-/auth [ᴜsᴇʀɴᴀᴍᴇ] : ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴀᴜᴛʜ ʟɪsᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
+/auth [username]: Add a user to the auth list of the bot.
 
-/unauth [ᴜsᴇʀɴᴀᴍᴇ] : ʀᴇᴍᴏᴠᴇ ᴀ ᴀᴜᴛʜ ᴜsᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ.
+/unauth [username]: Remove an auth user from the auth users list.
 
-/authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ."""
-
-HELP_3 = """<b>ʙʟᴀᴄᴋʟɪsᴛ ғᴇᴀᴛᴜʀᴇ</b> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
-😒 **<u>ʙʟᴀᴄᴋʟɪsᴛ ᴄʜᴀᴛ :</u>**
-
-/blacklistchat [ᴄʜᴀᴛ ɪᴅ] : ʙʟᴀᴄᴋʟɪsᴛ ᴀ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-
-/whitelistchat [ᴄʜᴀᴛ ɪᴅ] : ᴡʜɪᴛᴇʟɪsᴛ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ.
-
-/blacklistedchat : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
+/authusers: Shows the auth users list of the group."""
 
 
-😤 **<u>ʙʟᴏᴄᴋ ᴜsᴇʀs:</u>**
+HELP_3 = """<b>BLACKLIST FEATURE</b> [Only for sudoers]
+😒 **<u>BLACKLIST CHAT:</u>**
 
-/block [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ] : sᴛᴀʀᴛs ɪɢɴᴏʀɪɴɢ ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ, sᴏ ᴛʜᴀᴛ ʜᴇ ᴄᴀɴ'ᴛ ᴜsᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs.
+/blacklistchat [chat ID]: Blacklist a chat from using the bot.
 
-/unblock [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ᴜɴʙʟᴏᴄᴋs ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀ.
+/whitelistchat [chat ID]: Whitelist the blacklisted chat.
 
-/blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs."""
+/blacklistedchat: Shows the list of blacklisted chats.
 
-HELP_4 = """🍒 **<u>ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ</u>** [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
 
-/broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] : ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+😤 **<u>BLOCK USERS:</u>**
 
-<u>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs:</u>
-**-pin** : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇs ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs.
-**-pinloud** : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ sᴇɴᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴛᴏ ᴛʜᴇ ᴍᴇᴍʙᴇʀs.
-**-user** : ʙʀᴏᴀᴅᴄᴀsᴛs ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.
-**-assistant** : ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ᴀssɪᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-**-nobot** : ғᴏʀᴄᴇs ᴛʜᴇ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ..
+/block [username or reply to a user]: Start ignoring the user, so that they can't use bot commands.
 
-**ᴇxᴀᴍᴩʟᴇ:** `/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ`
+/unblock [username or reply to a user]: Unblocks the blocked user.
+
+/blockedusers: Shows the list of blocked users."""
+
+
+HELP_4 = """🍒 **<u>BROADCAST FEATURE</u>** [Only for sudoers]:
+
+/broadcast [message or reply to a message]: Broadcast a message to served chats of the bot.
+
+<u>Broadcasting modes:</u>
+**-pin**: Pins your broadcasted messages in served chats.
+**-pinloud**: Pins your broadcasted message in served chats and sends notification to the members.
+**-user**: Broadcasts the message to the users who have started your bot.
+**-assistant**: Broadcast your message from the assistant account of the bot.
+**-nobot**: Forces the bot to not broadcast the message..
+
+**Example:** `/broadcast -user -assistant -pin Testing broadcast`
 """
-HELP_5 = """😉 **<u>ᴇxᴛʀᴀs :</u>**
+HELP_5 = """😉 **<u>EXTRAS:</u>**
 
-/loop [ᴅɪsᴀʙʟᴇ/ᴇɴᴀʙʟᴇ] ᴏʀ [ʙᴇᴛᴡᴇᴇɴ 1:10] 
-: ᴡʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʙᴏᴛ ᴡɪʟʟ ᴩʟᴀʏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ɪɴ ʟᴏᴏᴩ ғᴏʀ 10 ᴛɪᴍᴇs ᴏʀ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴏғ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏᴏᴩs.
+/loop [disable/enable] or [between 1:10]: When activated, the bot will play the current playing stream in loop for 10 times or the number of requested loops.
 
-/shuffle : sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs.
+/shuffle: Shuffles the queued tracks.
 
-/seek : sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
+/seek: Seek the stream to the given duration.
 
-/seekback : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
+/seekback: Backward seek the stream to the the given duration.
 
-/lyrics [sᴏɴɢ ɴᴀᴍᴇ] : sᴇᴀʀᴄʜ ʟʏʀɪᴄs ғᴏʀ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ sᴏɴɢ ᴀɴᴅ sᴇɴᴅ ᴛʜᴇ ʀᴇsᴜʟᴛs."""
+/lyrics [song name]: Search lyrics for the requested song and send the results."""
 
-HELP_6 = """🤨 **<u>sᴇʀᴠᴇʀ ᴩʟᴀʏʟɪsᴛs :</u>**
+HELP_6 = """🤨 **<u>SERVER PLAYLISTS:</u>**
 
-/playlist : ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀs.
+/playlist: Check your saved playlist on servers.
 
-/deleteplaylist : ᴅᴇʟᴇᴛᴇ ᴀɴʏ sᴀᴠᴇᴅ ᴛʀᴀᴄᴋ ɪɴ ʏᴏᴜʀ ᴩʟᴀʏʟɪsᴛ.
+/deleteplaylist: Delete any saved track in your playlist.
 
-/play : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ."""
+/play: Starts playing from your saved playlist."""
 
-HELP_7 = """🍑 **ᴩɪɴɢ ᴄᴏᴍᴍᴀɴᴅ :**
+HELP_7 = """🍑 Ping Command:
 
-/ping : sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+/ping : show the ping and system stats of the bot.
 
-/stats : ɢᴇᴛ ᴛᴏᴩ 10 ᴛʀᴀᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs, ᴛᴏᴩ 10 ᴜsᴇʀs ᴏғ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴩʟᴀʏᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ..."""
+/stats : get top 10 track global stats, top 10 users of the bot, top 10 chats on the bot, top 10 played in the chat, and many more..."""
 
-HELP_8 = """💞 **<u>ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs:</u>**
+HELP_8 = """💞 Play Commands:
 
-**c** sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ.
-**v** sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
-**force** sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ.
+c stands for channel play.
+v stands for video play.
+force stands for force play.
 
-/play ᴏʀ /vplay ᴏʀ /cplay : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+/play or /vplay or /cplay : starts streaming the requested track on videochat.
 
-/playforce ᴏʀ /vplayforce ᴏʀ /cplayforce : **ғᴏʀᴄᴇ ᴩʟᴀʏ** sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
+/playforce or /vplayforce or /cplayforce : force play stops the ongoing stream and starts streaming the requested track.
 
-/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ."""
+/channelplay [chat username or ID] or [disable] : connect channel to a group and starts streaming tracks by the help of commands sent in group."""
 
-HELP_9 = """🥀 **<u>sᴜᴅᴏᴇʀs ᴀɴᴅ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs :</u>**
+HELP_9 = """🥀 Sudoers and Owner Commands:
 
-🥺 **<u>ᴀᴅᴅ & ʀᴇᴍᴏᴠᴇ sᴜᴅᴏᴇʀs :</u>**
+🥺 Add & Remove Sudoers:
 
-/addsudo [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ]
-/delsudo [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ.]
+/addsudo [username or reply to a user]
+/delsudo [username or reply to a chutiya.]
 
-🥶 **<u>ʜᴇʀᴏᴋᴜ :</u>**
+🥶 Heroku:
 
-/usage : sʜᴏᴡs ᴛʜᴇ ᴅʏɴᴏ ᴜsᴀɢᴇ ᴏғ ᴛʜᴇ ᴍᴏɴᴛʜ.
+/usage : shows the dyno usage of the month.
 
-🤯 **<u>ᴄᴏɴғɪɢ ᴠᴀʀɪᴀʙʟᴇs:</u>**
+🤯 Config Variables:
 
-/get_var : ɢᴇᴛ ᴀ ᴄᴏɴғɪɢ ᴠᴀʀ ғʀᴏᴍ ʜᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
-/del_var : ᴅᴇʟᴇᴛᴇ ᴀ ᴄᴏɴғɪɢ ᴠᴀʀ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
-/set_var [ᴠᴀʀ ɴᴀᴍᴇ] [ᴠᴀʟᴜᴇ] : sᴇᴛ ᴏʀ ᴜᴩᴅᴀᴛᴇ ᴀ ᴄᴏɴғɪɢ ᴠᴀʀ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ .ᴇɴᴠ.
+/get_var : get a config var from Heroku or .env.
+/del_var : delete a config var on Heroku or .env.
+/set_var [var name] [value] : set or update a config var on Heroku or .env.
 
-🤓 **<u>ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs:</u>**
+🤓 Bot Commands:
 
-/restart : ʀᴇsᴛᴀʀᴛs ʏᴏᴜʀ ʙᴏᴛ.
+/restart : restarts your bot.
 
-/update : ᴜᴩᴅᴀᴛᴇs ᴛʜᴇ ʙᴏᴛ ғʀᴏᴍ ᴛʜᴇ ᴜᴩsᴛʀᴇᴀᴍ ʀᴇᴩᴏ.
+/update : updates the bot from the upstream repo.
 
-/speedtest : ᴄʜᴇᴄᴋ ʙᴏᴛ's sᴇʀᴠᴇʀ sᴩᴇᴇᴅ.
+/speedtest : check bot's server speed.
 
-/maintenance [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
+/maintenance [enable/disable] : enable or disable maintenance mode of your bot.
 
-/logger [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ʙᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ʟᴏɢɢɪɴɢ ᴛʜᴇ ᴀᴄᴛɪᴠɪᴛɪᴇs ʜᴀᴩᴩᴇɴ ᴏɴ ʙᴏᴛ.
+/logger [enable/disable] : bot will start logging the activities happen on bot.
 
-/get_log [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]
+/get_log [number of lines] : get logs of your bot [default value is 100 lines]
 
-💔 **<u>ғᴏʀ ᴩʀɪᴠᴀᴛᴇ ʙᴏᴛ ᴏɴʟʏ :</u>**
+💔 For Private Bot Only:
 
-/authorize [ᴄʜᴀᴛ ɪᴅ] : ᴀʟʟᴏᴡs ᴀ ᴄʜᴀᴛ ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-/unauthorize [ᴄʜᴀᴛ ɪᴅ] : ᴅɪsᴀʟʟᴏᴡs ᴛʜᴇ ᴀʟʟᴏᴡᴇᴅ ᴄʜᴀᴛ.
-/authorized : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀʟʟᴏᴡᴇᴅ ᴄʜᴀᴛs."""
+/authorize [chat ID] : allows a chat for using the bot.
+/unauthorize [chat ID] : disallows the allowed chat.
+/authorized : shows the list of allowed chats."""
 
-HELP_10 = """🤑 **<u>ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs :</u>**
+HELP_10 = """🤑 <u>ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs :</u>
 
-/activevoice : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ.
-/activevideo : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
-/autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ."""
+/activevoice : shows the list of active voicechats on the bot.
+/activevideo : shows the list of active videochats on bot.
+/autoend [enable|disable] : enable stream auto end if no one is listening."""
 
 HELP_11 = """😅**<u>ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴡɪᴛʜ ʙᴏᴛ</u>**
-/start : sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
+/start : starts the music bot.
 
-/help : ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
+/help : get help menu with explanation of commands.
 
-/reboot : ʀᴇʙᴏᴏᴛs ᴛʜᴇ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ᴄʜᴀᴛ.
+/reboot : reboots the bot for your chat.
 
-/settings : sʜᴏᴡs ᴛʜᴇ ɢʀᴏᴜᴩ sᴇᴛᴛɪɴɢs ᴡɪᴛʜ ᴀɴ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪɴʟɪɴᴇ ᴍᴇɴᴜ.
+/settings : shows the group settings with an interactive inline menu.
 
-/sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ."""
+/sudolist : shows the sudo users of music bot."""
 
-HELP_12 = """🤬 **<u>ɢʙᴀɴ ғᴇᴀᴛᴜʀᴇ</u>** [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+HELP_12 = """🤬 <u>ɢʙᴀɴ ғᴇᴀᴛᴜʀᴇ</u> [only for sudoers] :
 
-/gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ] : ɢʟᴏʙᴀʟʟʏ ʙᴀɴs ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ ғʀᴏᴍ ᴀʟʟ ᴛʜᴇ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ ʙʟᴀᴄᴋʟɪsᴛ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
+/gban [username or reply to a chutiya] : globally bans the chutiya from all the served chats and blacklist him from using the bot.
 
-/ungban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ɢʟᴏʙᴀʟʟʏ ᴜɴʙᴀɴs ᴛʜᴇ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀ.
+/ungban [username or reply to a user] : globally unbans the globally banned user.
 
-/gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs."""
+/gbannedusers : shows the list of globally banned users."""
